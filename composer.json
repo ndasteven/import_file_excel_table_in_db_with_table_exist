@@ -1,0 +1,17 @@
+{
+    "name": "vendor/steven",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Steven\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ndasteven",
+            "email": "ndasteven5@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    }
+}

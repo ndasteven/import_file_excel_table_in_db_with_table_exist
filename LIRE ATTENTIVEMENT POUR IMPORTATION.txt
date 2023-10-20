@@ -1,0 +1,12 @@
+Lire attentivevement pour importation de fichier volumuneux avec ce script d'importation
+
+*Lors de l'importation si votre fichier est en excel au format csv
+
+- pour 5000 lignes il faut configurer votre php.ini dans sgbdr wamp et changer
+ "max_execution_time" qui est par defaut a 120s (max_execution_time = 120) et augmenter sa valeur
+	ex: lors d'une copie de 5OOO ligne je l'ai mis à 1200s et il a fait 3min pour la copie
+	entier du tableau excel donc avous de faire le produit en croix.
+
+php v8.2
+
+
